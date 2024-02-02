@@ -1,0 +1,45 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "cab6c2f2-a541-47fe-ad4f-f72b51e18bf6",
+            "actions": [
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "cfc03a5b-9c03-42b8-a7a6-c160765c3287",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "21c878b0-fdd7-4903-bbfb-205e787252ce",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "655bf8d2-1175-4228-a332-d62d3f86e96f",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
